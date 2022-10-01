@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Simon-Games</title>
+</head>
+<body>
+    <h1>Simon Game
+    </h1>
+    <div class="row">
+        <div onclick="panelClicked(event.currentTarget)" class="panel top-right"></div>
+        <div onclick="panelClicked(event.currentTarget)" class="panel top-left"></div>
+    </div>
+<div class="rows">
+    <div onclick="panelClicked(event.currentTarget)" class="panel bottom-right"></div>
+    <div onclick="panelClicked(event.currentTarget)" class="panel bottom-left" ></div>
+</div>
+<div class="center"></div>
+<script src="app.js"></script>
+</body>
+</html>
